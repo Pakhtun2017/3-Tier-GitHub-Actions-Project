@@ -1,0 +1,11 @@
+name: Node.js CICD
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  compile:
+    runs-on: Agent-1
